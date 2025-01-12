@@ -31,7 +31,7 @@ class Contact extends Component{
                     <div>
                         Tbilisi 1094, Georgia
                     </div>
-                    <br />
+                
 
                 </div>
             </div>
