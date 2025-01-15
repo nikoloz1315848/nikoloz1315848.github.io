@@ -14,7 +14,7 @@ class Blog extends Component {
 
                 <h1>Blog</h1>
                 
-                <img src={BigLogo} alt="big logo" />
+                {/* <img src={BigLogo} alt="big logo" /> */}
 
 
                 under construction

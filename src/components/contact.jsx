@@ -16,10 +16,13 @@ class Contact extends Component{
                 </div>
                 <div className='px-5 mt-4'>
                     <div>
-                        E-mail: ninikookruashvili@gmail.com
+                        E-mail: info@riskadvisor.ge
                     </div>
                     <div>
                         T: +995-599-519783
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/company/106128851/admin/dashboard/">LinkedIn</a>
                     </div>
                     <br />
                     <div>
@@ -31,7 +34,9 @@ class Contact extends Component{
                     <div>
                         Tbilisi 1094, Georgia
                     </div>
+                 
                 
+           
 
                 </div>
             </div>

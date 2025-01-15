@@ -16,6 +16,7 @@ import Consulting from './components/consulting';
 import UsefulLinks from './components/usefulLinks';
 import TermsOfUse from './components/termsOfUse';
 import Faq from './components/faq';
+import PrivacyPolicy from './components/PrivacyPolicy';
 function App() {
 
 
@@ -58,6 +59,10 @@ function App() {
                     <Route
                         path="/termsOfUse"
                         element={<TermsOfUse />}
+                    />
+                    <Route
+                        path="/privacyPolicy"
+                        element={<PrivacyPolicy />}
                     />
                     <Route
                         path="/faq"

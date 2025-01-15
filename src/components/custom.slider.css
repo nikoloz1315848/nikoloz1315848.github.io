@@ -14,7 +14,7 @@
     border-style: solid;
     border-color: black;
     border-width: 3px;
-   /* border-radius: 15px;*/
+    /* border-radius: 0 0 15px 15px; */
   }
   
   .container__slider > button {

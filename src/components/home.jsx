@@ -12,20 +12,29 @@ class Home extends Component {
             <div className='d-flex flex-column min-vh-100 '>
                 
                 <Header />
-     
-                <CustomSlider>
-                    {images.map((image, index) => {
-                    return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
-                    })}
-                </CustomSlider>
+                <div className='px-sm-5'>
+                    <div className='px-md-5'>
+                        <div className='px-lg-5'>
+                            <div className='px-xl-5'>
+                                <CustomSlider>
+                                    {images.map((image, index) => {
+                                    return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
+                                    })}
+                                </CustomSlider>
+                            </div>   
+                        </div>
+                    </div>
+                    
+                </div>
+                
                 
 
 
                 
                 <div className='pb-2 flex-grow-1'>
-                    <div className='h2 px-5 mt-4' style={{fontFamily: 'gillsansmt',  color: '#4590B8'}} >Introduction</div>
+                    <div className='custom-font-size-heading px-4 px-sm-5 mt-4' style={{fontFamily: 'gillsansmt',  color: '#4590B8'}} >Introduction</div>
                     
-                    <div className='px-5 mt-2' style={{fontFamily: 'gillsansmt' ,color: '#003968'}}>
+                    <div className='custom-font-size-text px-4 px-sm-5 mt-2' style={{fontFamily: 'gillsansmt' ,color: '#003968'}}>
                         <ul style={{listStyle: 'square'}}>
                             <li> 
                                 We provide <b> Risk Management Consulting and Training services </b> to the financial institutions. 
@@ -39,10 +48,11 @@ class Home extends Component {
                         </ul>
                     </div>
 
-                    <div className='h2 px-5 mt-4' style={{fontFamily: 'gillsansmt', color: '#4590B8'}}>
+                    <div className='custom-font-size-heading px-4 px-sm-5 mt-4' style={{fontFamily: 'gillsansmt', color: '#4590B8'}}>
                         Our mission
                     </div>
-                    <div className='px-5 mt-2' style={{fontFamily: 'gillsansmt', color: '#003968'}}>
+                   
+                    <div className='custom-font-size-text px-4 px-sm-5 mt-2' style={{fontFamily: 'gillsansmt', color: '#003968'}}>
                         To support financial institutions in building a <b>Strong Risk Culture</b> and encourage them to prioritize <b>Proactive Risk Management</b>.
                     </div>
                     <br /><br />

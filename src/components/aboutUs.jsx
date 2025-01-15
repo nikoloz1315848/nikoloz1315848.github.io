@@ -13,8 +13,8 @@ class AboutUs extends Component{
                  <img src={ProfilePicture} alt="profile"  className='rounded'/>
                  
                 <div className='mt-2'>
-                    <div className='h2' style={{fontFamily: 'gillsansmt',  color: '#003968'}}> Nino Okruashvili, Founder</div>
-                    <ul  style={{listStyle: 'square', fontFamily: 'gillsansmt' ,color: '#003968'}}>
+                    <div className='custom-font-size-heading' style={{fontFamily: 'gillsansmt',  color: '#003968'}}> Nino Okruashvili, Founder</div>
+                    <ul className='custom-font-size-text' style={{listStyle: 'square', fontFamily: 'gillsansmt' ,color: '#003968'}}>
                         <li>10+ years of experience in Operational risk management and internal control across diverse industries;</li>
                         <li>Demonstrated success in developing, implementing, and overseeing various Risk management frameworks;</li>
                         <li>Experienced in leading cross-functional teams to execute robust risk management initiatives;</li>

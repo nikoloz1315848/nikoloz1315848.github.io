@@ -2,4 +2,52 @@
     font-family: 'gillsansmt'; /* Replace with your font's name */
     src: url('../public/fonts/gillsansmt.ttf') format('truetype'); 
   }
+  .custom-font-size-text {
+    font-size: 1rem;  /* Small font for extra-small screens */
+  }
+  
+  /* Small screens (≥576px) */
+  @media (min-width: 576px) {
+    .custom-font-size-text {
+      font-size: 1.125rem;  /* Slightly larger font for small screens */
+    }
+  }
+  .custom-font-size-heading {
+    font-size: 1.875rem;  /* Small font for extra-small screens */
+  }
+  
+  /* Small screens (≥576px) */
+  @media (min-width: 576px) {
+    .custom-font-size-heading {
+      font-size: 2.125rem;  /* Slightly larger font for small screens */
+    }
+  }
+  
+  /* Medium screens (≥768px) 
+  @media (min-width: 768px) {
+    .custom-font-size {
+      font-size: 2.5rem;  
+    }
+  }
+  
+
+  @media (min-width: 992px) {
+    .custom-font-size {
+      font-size: 3rem;  
+    }
+  }
+  
+
+  @media (min-width: 1200px) {
+    .custom-font-size {
+      font-size: 4rem; 
+    }
+  }
+  
+ 
+  @media (min-width: 1400px) {
+    .custom-font-size {
+      font-size: 5rem; 
+    }
+  }*/
 
