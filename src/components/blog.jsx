@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Footer from './footer';
 import Header from './header';
-import BigLogo from  './data/BigLogo.png';
+import ComingSoon from './data/coming_soon.png';
 
 
 class Blog extends Component {
@@ -11,15 +11,8 @@ class Blog extends Component {
             <div className='d-flex flex-column min-vh-100 '>
                 <Header/>
                 <div className='pb-2 flex-grow-1'>
-
-                <h1>Blog</h1>
-                
-                {/* <img src={BigLogo} alt="big logo" /> */}
-
-
-                under construction
-                </div>
-                
+                    <img src={ComingSoon} alt="coming soon" style={{maxWidth: '100%'}}/> 
+                </div>        
                 <Footer/>
             </div>
         );

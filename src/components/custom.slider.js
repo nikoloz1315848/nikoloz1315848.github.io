@@ -6,7 +6,7 @@ function CustomCarousel({ children }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [slideDone, setSlideDone] = useState(true);
   const [timeID, setTimeID] = useState(null);
-
+  const titles = ["Become proactive at managing risks", "", ""];
   useEffect(() => {
     if (slideDone) {
       setSlideDone(false);
@@ -65,6 +65,7 @@ function CustomCarousel({ children }) {
             key={index}
           >
             {item}
+            <div className="slider__item__overlay"> <div > {titles[index]}</div></div>
           </div>
         );
       })}

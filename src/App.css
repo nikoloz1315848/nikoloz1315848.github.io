@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'gillsansmt'; /* Replace with your font's name */
     src: url('../public/fonts/gillsansmt.ttf') format('truetype'); 
@@ -12,6 +14,62 @@
       font-size: 1.125rem;  /* Slightly larger font for small screens */
     }
   }
+  @media (min-width: 768px) {
+    .custom-font-size-text {
+      font-size: 0.65rem;  
+    }
+  }
+  @media (min-width: 875px) {
+    .custom-font-size-text {
+      font-size: 0.75rem;  
+    }
+  }
+  @media (min-width: 992px) {
+    .custom-font-size-text {
+      font-size: 0.85rem;  
+    }
+  }
+  @media (min-width: 1100px) {
+    .custom-font-size-text {
+      font-size: 0.95rem; 
+    }
+  }
+  @media (min-width: 1200px) {
+    .custom-font-size-text {
+      font-size: 1rem; 
+    }
+  }
+  @media (min-width: 1400px) {
+    .custom-font-size-text {
+      font-size: 1.25rem; 
+    }
+  }
+  .custom-font-size-text-2 {
+    font-size: 1rem;  /* Small font for extra-small screens */
+  }
+  
+  /* Small screens (≥576px) */
+  @media (min-width: 576px) {
+    .custom-font-size-text-2 {
+      font-size: 1.125rem;  /* Slightly larger font for small screens */
+    }
+  }
+  @media (min-width: 768px) {
+    .custom-font-size-text-2 {
+      font-size: 0.9rem;  
+    }
+  }
+  @media (min-width: 992px) {
+    .custom-font-size-text-2 {
+      font-size: 1rem;  
+    }
+  }
+  @media (min-width: 1400px) {
+    .custom-font-size-text-2 {
+      font-size: 1.125rem; 
+    }
+  }
+  
   .custom-font-size-heading {
     font-size: 1.875rem;  /* Small font for extra-small screens */
   }
@@ -22,7 +80,86 @@
       font-size: 2.125rem;  /* Slightly larger font for small screens */
     }
   }
+  @media (min-width: 768px) {
+    .custom-font-size-heading {
+      font-size: 1.85rem;  
+    }
+  }
   
+
+  @media (min-width: 992px) {
+    .custom-font-size-heading {
+      font-size: 2.125rem;  
+    }
+  }
+  
+
+  @media (min-width: 1200px) {
+    .custom-font-size-heading {
+      font-size: 2.2rem; 
+    }
+  }
+  
+ 
+  @media (min-width: 1400px) {
+    .custom-font-size-heading {
+      font-size: 2.5rem; 
+    }
+  }
+  .custom-font-size-heading-2 {
+    font-size: 1rem;  /* Small font for extra-small screens */
+  }
+  
+  /* Small screens (≥576px) */
+  @media (min-width: 576px) {
+    .custom-font-size-heading-2 {
+      font-size: 1rem;  /* Slightly larger font for small screens */
+    }
+  }
+  .custom-font-size-heading-3 {
+    font-size: 1.5rem;  /* Small font for extra-small screens */
+  }
+  
+  /* Small screens (≥576px) */
+  @media (min-width: 576px) {
+    .custom-font-size-heading-3 {
+      font-size: 1.5rem;  /* Slightly larger font for small screens */
+    }
+  }
+  @media (min-width: 768px) {
+    .custom-font-size-heading-3 {
+      font-size: 1.85rem;  
+    }
+  }
+  @media (min-width: 992px) {
+    .custom-font-size-heading-3 {
+      font-size: 2rem;  
+    }
+  }
+  @media (min-width: 1200px) {
+    .custom-font-size-heading-3 {
+      font-size: 2.5rem; 
+    }
+  }
+  @media (min-width: 1400px) {
+    .custom-font-size-heading-3 {
+      font-size: 3rem; 
+    }
+  }
+  @media (min-width: 576px) {
+    .nav-item:hover {
+    /*
+    border-color: #4590B8;
+    border-bottom-style: solid;
+  */
+      color: #4590B8;
+    }
+  }
+  @media (min-width: 576px) {
+    .Istock:hover {
+      color: #4590B8;
+    }
+  }
   /* Medium screens (≥768px) 
   @media (min-width: 768px) {
     .custom-font-size {
@@ -50,4 +187,5 @@
       font-size: 5rem; 
     }
   }*/
+
 

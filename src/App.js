@@ -17,13 +17,46 @@ import UsefulLinks from './components/usefulLinks';
 import TermsOfUse from './components/termsOfUse';
 import Faq from './components/faq';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import backgroundPic from './components/data/backgroundPic.jpg';
+import React, { useState, useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function App() {
 
+  const [activeSection, setActiveSection] = useState(null);
 
+  const handleScroll = () => {
+    const sections = document.querySelectorAll("section");
+    let currentSection = null;
 
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+        currentSection = section.id;
+      }
+    });
+
+    setActiveSection(currentSection);
+  };
+
+  useEffect(() => {
+    // Initialize Scrollspy manually after the page has loaded
+    const scrollSpyElement = document.getElementById("navbar");
+    if (scrollSpyElement && window.bootstrap) {
+      new window.bootstrap.ScrollSpy(scrollSpyElement, {
+        target: '#navbar'
+      });
+    }
+
+    window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
   return (
     <>
-        <div>
+        <div style={{backgroundColor: '#F0F0F0',fontFamily: 'arial', color: '#003968'}}>
             <Router>
                 <Routes>
                     <Route
