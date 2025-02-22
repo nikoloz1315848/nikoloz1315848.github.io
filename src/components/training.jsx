@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './footer';
 import Header from './header';
-import Picture3 from './data/Picture3.jpg';
 import TrainingPic from './data/TrainingPic.jpg';
 class Training extends Component {
     state = {  } 

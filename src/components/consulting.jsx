@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './footer';
 import Header from './header';
-import Picture2 from './data/Picture2.jpg';
 import IstockPic1 from './data/iStock_pic_1.jpg';
 import IstockPic2 from './data/iStock_pic_2.jpg';
 import IstockPic3 from './data/iStock_pic_3.jpg';

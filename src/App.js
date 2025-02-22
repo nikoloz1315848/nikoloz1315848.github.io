@@ -17,7 +17,6 @@ import UsefulLinks from './components/usefulLinks';
 import TermsOfUse from './components/termsOfUse';
 import Faq from './components/faq';
 import PrivacyPolicy from './components/PrivacyPolicy';
-import backgroundPic from './components/data/backgroundPic.jpg';
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

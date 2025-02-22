@@ -6,16 +6,12 @@ import Footer from './footer';
 import Pic1 from './data/pic1.jpg';
 import Pic2 from './data/pic2.jpg';
 import Pic3 from './data/pic3.jpg';
-import Picture1 from './data/Picture1.jpg';
-import Picture2 from './data/Picture2.jpg';
-import Picture3 from './data/Picture3.jpg';
 import CustomerPic1 from './data/customers_Pic_1.jpg';
 import CustomerPic2 from './data/customers_Pic_2.jpg';
 import CustomerPic3 from './data/customers_Pic_3.jpg';
 import CustomerPic4 from './data/customers_Pic_4.jpg';
 import CustomerPic5 from './data/customers_Pic_5.jpg';
 import CustomerPic6 from './data/customers_Pic_6.jpg';
-import { hover } from '@testing-library/user-event/dist/hover';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 

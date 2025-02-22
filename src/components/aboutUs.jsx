@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Header from './header';
 import Footer from './footer';
 import ProfilePicture from './data/profilePicture.jpg';
-import backgroundPic from './data/backgroundPic.jpg';
-import MissionPic from './data/Missionpic.png';
 class AboutUs extends Component{
     state = {  } 
     render(){
